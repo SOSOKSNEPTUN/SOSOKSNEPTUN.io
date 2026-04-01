@@ -1,34 +1,47 @@
-body {
-  background-image: url("https://avatars.mds.yandex.net/i?id=1d8536f1049375ff878ff9320b27e6be706a476f-4080151-images-thumbs&n=13");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
-.info-short {
-  display: flex;
-  flex-direction: column;
+section:nth-last-of-type(odd),
+footer,
+header {
+  background-color: rgb(199, 45, 45);
 }
 
-body {
-  text-align: center;
+section:nth-last-of-type(even) {
+  background-color: rgb(80, 9, 9);
 }
-.jh {
-  border: 2px solid #333;
-  border-radius: 35px;
-  background-color: rgba(255, 255, 255, 0.444);
-  margin: 1em 40em;
+
+.info {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
 }
-.info-short {
-  border: 2px solid #333;
-  border-radius: 35px;
-  background-color: rgba(255, 255, 255, 0.444);
-  margin: 2em 40em;
+.naviki2 {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.obomne {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.opitraboti {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.moiraboti {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.kontakti {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 img {
