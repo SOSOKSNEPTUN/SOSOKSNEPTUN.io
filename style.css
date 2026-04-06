@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-section:nth-last-of-type(odd),
+/*section:nth-last-of-type(odd),
 footer,
 header {
   background-color: rgb(199, 45, 45);
@@ -11,6 +11,10 @@ header {
 
 section:nth-last-of-type(even) {
   background-color: rgb(80, 9, 9);
+}*/
+
+body {
+  background-image: url('https://avatars.mds.yandex.net/i?id=17041ce118dbd876b84d272f0bcfbb4e5a5ad1b8-12481555-images-thumbs&n=13');
 }
 
 .info {
@@ -47,4 +51,18 @@ section:nth-last-of-type(even) {
 img {
   border-radius: 35px;
   border: 2px solid #000000;
+}
+
+
+
+
+@media (max-width: 1000px) {
+  .info,.naviki2,.info2,.obomne,.opitraboti,.moiraboti,.kontakti{
+    width: 100%;
+  }
+}
+
+@media (max-width: 1250px) {
+
+  
 }
