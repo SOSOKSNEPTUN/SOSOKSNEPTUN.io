@@ -12,15 +12,20 @@ header {
 section:nth-last-of-type(even) {
   background-color: rgb(80, 9, 9);
 }*/
-
+.card{
+  color: #000000;
+}
 body {
   background-image: url('https://avatars.mds.yandex.net/i?id=17041ce118dbd876b84d272f0bcfbb4e5a5ad1b8-12481555-images-thumbs&n=13');
+  color: #000000;
 }
+
 
 .info {
   width: 1000px;
   margin: 0 auto;
   padding: 20px;
+  background-color: antiquewhite;
 }
 .naviki2 {
   width: 1000px;
@@ -66,3 +71,9 @@ img {
 
   
 }
+
+
+
+
+
+

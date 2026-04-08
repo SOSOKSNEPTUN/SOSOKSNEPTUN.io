@@ -1,77 +1,111 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
-  </head>
-  <body>
-    <main>
-      <section>
-        <div class="info">
-          <img
-            src="https://avatars.mds.yandex.net/i?id=d4d8868106d637a1a65e38f6294f243ba0c93586-7025773-images-thumbs&n=13"
-            alt=""
-          />
-          <div class="info2">
-            <h2>Долголенко Петр</h2>
-            <span><b>Возраст:</b>15</span>
-            <h3>Ученик Академии Топ группы П511</h3>
-          </div>
-        </div>
-      </section>
 
-      <section>
-        <div class="naviki2">
-          <h3>Навыки:</h3>
-          <ul>
-            <li>html</li>
-            <li>C#</li>
-            <li>Avalonia</li>
-          </ul>
-        </div>
-      </section>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Document</title>
+</head>
 
-      <section>
-        <div class="obomne">
-          <h3>Обо мне</h3>
-          <p>Я Ученик</p>
+<body id="body">
+  <main>
+    <section>
+      <div class="info">
+        <img
+          src="https://avatars.mds.yandex.net/i?id=d4d8868106d637a1a65e38f6294f243ba0c93586-7025773-images-thumbs&n=13"
+          alt="" />
+        <div class="info2">
+          <h2>Долголенко Петр</h2>
+          <span><b>Возраст:</b>15</span>
+          <h3>Ученик Академии Топ группы П511</h3>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section>
-        <div class="opitraboti">
-          <h3>Опыт работы</h3>
-          <p>Отсуствует</p>
-        </div>
-      </section>
+    <section>
+      <div class="naviki2">
+        <h3>Навыки:</h3>
+        <ul id="perks">
+        </ul>
+      </div>
+    </section>
 
-      <section>
-        <div class="moiraboti">
-          <h3>Мои работы:</h3>
-          <ul>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-            <li>4</li>
-          </ul>
-        </div>
-      </section>
+    <section>
+      <div class="obomne">
+        <h3>Обо мне</h3>
+        <p>Я Ученик</p>
+      </div>
+    </section>
 
-      <section>
-        <div class="kontakti">
-          <h3>*Контакты*</h3>
-          <ul>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-            <li>4</li>
-          </ul>
-        </div>
-      </section>
+    <section>
+      <div class="opitraboti">
+        <h3>Опыт работы</h3>
+        <p>Отсуствует</p>
+      </div>
+    </section>
 
-      <footer>Все права защищены</footer>
-    </main>
-  </body>
-</html> 
+    <section>
+      <div class="moiraboti">
+        <h3>Мои работы:</h3>
+        <ul id = "moiraboti">
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <div class="kontakti">
+        <h3>*Контакты*</h3>
+        <ul id = "kontakti">
+        </ul>
+      </div>
+    </section>
+
+    <footer>Все права защищены</footer>
+  </main>
+
+
+  <script>
+    let arr = ["html", "C#", "Avalonia","css"]
+    let perks = document.getElementById("perks")
+    arr.forEach((item) => {
+      let card = document.createElement("li")
+      card.classList.add("card")
+      card.innerHTML = `${item}`
+
+
+      perks.appendChild(card)
+    })
+    let car = [1, 2, 3,4]
+    let moiraboti = document.getElementById("moiraboti")
+    car.forEach((tem) => {
+      let card = document.createElement("li")
+      card.classList.add("card")
+      card.innerHTML = `${tem}`
+
+
+      moiraboti.appendChild(card)
+    })
+
+    let rac = [1, 2, 3,4]
+    let kontakti = document.getElementById("kontakti")
+
+
+
+    rac.forEach((item) => {
+      let card = document.createElement("li")
+      card.classList.add("card")
+      card.innerHTML = `${item}`
+
+
+      kontakti.appendChild(card)
+    })
+
+
+
+
+
+  </script>
+</body>
+
+</html>
