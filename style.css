@@ -18,39 +18,85 @@ section:nth-last-of-type(even) {
 body {
   background-image: url('https://avatars.mds.yandex.net/i?id=17041ce118dbd876b84d272f0bcfbb4e5a5ad1b8-12481555-images-thumbs&n=13');
   color: #000000;
-}
+  border-radius: 300px;
 
+  
+}
+.ggg{
+  background-color: rgba(250, 235, 215, 0.6);
+  border: 2px solid #4b4b4b;
+  border-radius: 25px;
+
+    margin: -800px 425px 500px;
+}
 
 .info {
   width: 1000px;
   margin: 0 auto;
   padding: 20px;
-  background-color: antiquewhite;
+  background-color: rgba(250, 235, 215, 0.6);
+  border: 2px solid #4b4b4b;
+  border-radius: 25px;
+  margin: 0px 450px 15px;
+  display: flex;
+  /*gap: 50px;*/
+
 }
+.info2{
+  margin: 20px 50px 10px;;
+}
+
+
+
 .naviki2 {
   width: 1000px;
   margin: 0 auto;
   padding: 20px;
+    background-color: rgba(250, 235, 215, 0.6);
+  border: 2px solid #4b4b4b;
+  border-radius: 25px;
+    margin: 0px 450px 15px;
+    padding: 15px 45px 20px;
 }
 .obomne {
   width: 1000px;
   margin: 0 auto;
   padding: 20px;
+    background-color: rgba(250, 235, 215, 0.6);
+  border: 2px solid #4b4b4b;
+  border-radius: 25px;
+      margin: 0px 450px 15px;
+    padding: 15px 45px 20px;
 }
 .opitraboti {
   width: 1000px;
   margin: 0 auto;
   padding: 20px;
+    background-color: rgba(250, 235, 215, 0.6);
+  border: 2px solid #4b4b4b;
+  border-radius: 25px;
+      margin: 0px 450px 15px;
+    padding: 15px 45px 20px;
 }
 .moiraboti {
   width: 1000px;
   margin: 0 auto;
   padding: 20px;
+    background-color: rgba(250, 235, 215, 0.6);
+  border: 2px solid #4b4b4b;
+  border-radius: 25px;
+      margin: 0px 450px 15px;
+    padding: 15px 45px 20px;
 }
 .kontakti {
   width: 1000px;
   margin: 0 auto;
   padding: 20px;
+    background-color: rgba(250, 235, 215, 0.6);
+  border: 2px solid #4b4b4b;
+  border-radius: 25px;
+      margin: 0px 450px 15px;
+    padding: 15px 45px 20px;
 }
 
 img {
