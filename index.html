@@ -10,22 +10,36 @@
 
 <body id="body">
   <main>
-    <section>
+    <ection>
+      <div class="shtorka">
+
+
+
+
+      </div>
+    </ection>
+
+
+
+
+
+    <section class="section">
       <div class="info">
         <img
           src="https://avatars.mds.yandex.net/i?id=d4d8868106d637a1a65e38f6294f243ba0c93586-7025773-images-thumbs&n=13"
           alt="" />
-        <div class="info2">
+        <div class="info-text">
           <h1>Долголенко Петр</h1>
-                 <h2>Ученик Академии Топ группы П511</h2>   
-          <h2>Возраст:</h2><h2>15</h2>
+          <h2>Ученик Академии Топ группы П511</h2>
+          <h2>Возраст:</h2>
+          <h2>15</h2>
 
-          
+
         </div>
       </div>
     </section>
 
-    <section>
+    <section class="section">
       <div class="naviki2">
         <h3>Навыки:</h3>
         <ul id="perks">
@@ -33,14 +47,14 @@
       </div>
     </section>
 
-    <section>
+    <section class="section">
       <div class="obomne">
         <h3>Обо мне</h3>
         <p>Я Ученик</p>
       </div>
     </section>
 
-    <section>
+    <section class="section">
       <div class="opitraboti">
         <h3>Опыт работы</h3>
         <p>Отсуствует</p>
@@ -48,28 +62,27 @@
     </section>
 
     <section>
-      <div class="moiraboti">
+      <div class="moiraboti section">
         <h3>Мои работы:</h3>
-        <ul id = "moiraboti">
+        <ul id="moiraboti">
         </ul>
       </div>
     </section>
 
     <section>
-      <div class="kontakti">
+      <div class="kontakti section">
         <h3>*Контакты*</h3>
-        <ul id = "kontakti">
+        <ul id="kontakti">
         </ul>
 
     </section>
 
-  </div>
-  <div class="ggg"><h1>f</h1></div>
+    </div>
   </main>
 
 
   <script>
-    let arr = ["html", "C#", "Avalonia","css"]
+    let arr = ["html", "C#", "Avalonia", "css"]
     let perks = document.getElementById("perks")
     arr.forEach((item) => {
       let card = document.createElement("li")
@@ -79,7 +92,7 @@
 
       perks.appendChild(card)
     })
-    let car = [1, 2, 3,4]
+    let car = [1, 2, 3, 4]
     let moiraboti = document.getElementById("moiraboti")
     car.forEach((tem) => {
       let card = document.createElement("li")
@@ -90,7 +103,7 @@
       moiraboti.appendChild(card)
     })
 
-    let rac = [1, 2, 3,4]
+    let rac = [1, 2, 3, 4]
     let kontakti = document.getElementById("kontakti")
 
 
